@@ -520,6 +520,9 @@ section .right_con .btn_box button a {
     position: relative;
     background: linear-gradient(to bottom, #C9AE84, #362920);
 }
+.section3 .right_con > .right_txt {
+    color: #fff; /* 우측 상단 프로젝트 유형 */
+}
 .section3 .right_con > .right_con_txt_box {
     color: #fff;
 }
@@ -637,6 +640,9 @@ section .right_con .btn_box button a {
     width: 740px;
     position: relative;
     background: linear-gradient(-174deg, #C6C8CB, #C7C8CB, #A9AAAD);;
+}
+.section5 .right_con > .right_txt {
+    color: #fff; /* 우측 상단 프로젝트 유형 */
 }
 .section5 .right_con > .right_con_txt_box {
     color: #fff;
