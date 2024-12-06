@@ -242,24 +242,24 @@ section .inner .left_con {
 }
 .section2 .left_con .star {
     position: absolute;
-    top: 509px;
+    top: 502px;
     left: -37px;
     opacity: .8;
     animation-name: twinkle;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
 }
 
 @keyframes twinkle {
     0% {
-        opacity: 0.8;
+        opacity: 1;
     }
     
     50% {
-        opacity: 1;
+        opacity: 0.78;
     }
     100% {
-        opacity: 0.8;
+        opacity: 1;
     }
 }
 
@@ -630,6 +630,9 @@ section .right_con .btn_box button a {
     left: -80px;
     filter: contrast(0.7);
     transform: rotate(325deg);
+    animation-name: twinkle;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 .section5 .left_con > .txt_box {
     color: #372a20;
