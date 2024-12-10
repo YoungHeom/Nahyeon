@@ -717,7 +717,7 @@ section .right_con > .txt_box .bold {
     .window {
         width: 52%;
         min-width: 740px;
-        left: 332px;
+        left: 334px;
         /* height: 90%; */
         /* min-height: 924px; */
         max-height: 940px;
