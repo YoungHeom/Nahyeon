@@ -46,6 +46,7 @@ button {
     /* scrollbar-width: none; */
 }
 .wrap section {
+    min-width: 1280px;
     height: 100vh;
     max-height: 1080px;
     overflow-y: hidden;
@@ -362,7 +363,7 @@ section .right_con .btn_box button a {
 
 .window {
     position: absolute;
-    /* top: 72px; */
+    top: 72px;
     bottom: 0;
     left: 404px;   
     width: 952px;
@@ -724,7 +725,7 @@ section .right_con > .txt_box .bold {
 }
 @media (max-width: 1680px) {
     .left_con > .title_box > .txt_box {
-        width: 520px;
+        width: 90%;
         margin-top: 18px;
         line-height: 27px;
         font-size: 15.8px;
@@ -735,6 +736,9 @@ section .right_con > .txt_box .bold {
     }
 }
 @media (max-width: 1708px) {
+    html {
+        overflow-x: hidden;
+    }
     section .right_con > .right_con_txt_box {
         background: rgba(255, 255, 255, 0.3);
         backdrop-filter: blur(10px);
@@ -801,5 +805,61 @@ section .right_con > .txt_box .bold {
             top: -20px;
             scale: 100%;
         }
+    }
+}
+@media (max-width: 1024px) {
+    html {
+        overflow-x: auto;
+    }
+    .wrap section {
+        min-width: 1024px;
+        width: 100%;
+        height: 720px;
+    }
+    #section1 .inner {
+        height: 100%;
+    }
+    /* section1 시작 */
+    .object_box .planet {
+        width: 280px;
+    }
+    .object_box .ring1 {
+        width: 660px;
+    }
+    .object_box .ring2 {
+        width: 700px;
+    }
+    .left_con > .title_box > .txt_box {
+        width: 348px;
+    }
+    .left_con > .title_box {
+        left: 64px;
+        top: 36%;
+    }
+    .object_box .meteor_2 {
+        top: initial;
+        bottom: 1%;
+    }
+    .object_box .meteor_3 {
+        top: initial;
+        bottom: 1%;
+    }
+    .object_box .leftdown {
+        bottom: initial;
+    }
+    /* section1 끝 */
+
+    .left_con > .title_box > .title {
+        font-size: 58px;
+    }
+    section .right_con > .right_con_txt_box {
+        width: 400px;
+    }
+    section .right_con .btn_box button a {
+        font-size: 15px;
+    }
+    .window {
+        min-width: 700px;
+        left: 160px;
     }
 }
