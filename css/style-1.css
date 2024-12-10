@@ -730,10 +730,6 @@ section .right_con > .txt_box .bold {
         line-height: 27px;
         font-size: 15.8px;
     }
-
-    .window {
-        
-    }
 }
 @media (max-width: 1708px) {
     html {
