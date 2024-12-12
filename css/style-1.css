@@ -914,3 +914,9 @@ section .right_con > .txt_box .bold {
         max-height: 700px;
     }
 }
+@media (max-height: 1079px) {
+    .left_con > .title_box {
+        left: 64px;
+        top: 36%;
+    }   
+}
