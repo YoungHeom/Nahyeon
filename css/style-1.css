@@ -298,7 +298,8 @@ section .right_con > .right_txt {
 section .right_con > .right_con_txt_box {
     width: 441px;
     position: absolute;
-    top: 344px;
+    /* top: 344px; */
+    top: 36%;
     right: 52px;
     padding: 0 12px;
     padding-bottom: 12px;
@@ -857,5 +858,16 @@ section .right_con > .txt_box .bold {
     .window {
         min-width: 700px;
         left: 160px;
+    }
+}
+
+@media (max-height: 834px) {
+    section .right_con > .right_con_txt_box {
+        top: 32%;
+    }
+}
+@media (max-height: 620px) {
+    section .right_con > .right_con_txt_box {
+        top: 24%;
     }
 }
