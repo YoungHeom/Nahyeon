@@ -269,11 +269,12 @@ section .inner .left_con {
 section .left_con > .txt_box {
     position: absolute;
     bottom: 40px;
-    left: 40px;
+    left: 28px;
     display: flex;
     gap: 24px;
     color: #fff;
     z-index: 10;
+    padding: 0 12px;
 }
 section .left_con .txt_box .bold {
     font-weight: 600;
@@ -500,11 +501,12 @@ section .right_con .btn_box button a {
     max-width: 1180px;
     /* background: radial-gradient(circle at 20% -18%, #F6786A, #C39174, #649C84); */
 }
-.section3 .left_con .line {
+.section3 .left_con .line, .section5 .left_con .line {
     position: absolute;
     /* top: 695px; */
     bottom: 46px;
     left: 16%;
+    z-index: 10;
 }
 .section3 .left_con > .txt_box {
     color: #372a20;
@@ -620,13 +622,6 @@ section .right_con .btn_box button a {
     width: 65%;
     max-width: 1180px;
 }
-.section5 .left_con .line {
-    position: absolute;
-    /* top: 695px; */
-    bottom: 46px;
-    left: 16%;
-    z-index: 10;
-}
 .section5 .left_con .star {
     position: absolute;
     top: 480px;
@@ -741,6 +736,7 @@ section .right_con > .txt_box .bold {
         background: rgba(255, 255, 255, 0.3);
         backdrop-filter: blur(10px);
         border-radius: 2px;
+        overflow: hidden;
     }
     .section2 .right_con > .right_con_txt_box {
         background: rgba(255, 255, 255, 0.8);
@@ -751,6 +747,7 @@ section .right_con > .txt_box .bold {
     .section .right_con > .txt_box {
         background: rgba(255, 255, 255, 0.3);
         border-radius: 2px;
+        overflow: hidden;
     }
     .section3 .right_con > .right_con_txt_box {
         background-color: rgb(131, 111, 84, 0.65);
@@ -880,6 +877,19 @@ section .right_con > .txt_box .bold {
     }
 }
 @media (max-height: 1366px) and (max-width: 1024px) {
+    .section3 .left_con .line, .section5 .left_con .line {
+        left: 14%;
+        bottom: 392px;
+    }
+
+    section .left_con > .txt_box {
+        left: 36px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+    }
+    
+
+
     section .right_con > .right_con_txt_box {
         top: 20%;
     }
@@ -888,5 +898,10 @@ section .right_con > .txt_box .bold {
     }
     section .right_con > .txt_box {
         bottom: 380px;
+    }
+
+    .section4 .left_con > .txt_box {
+        background-color: #4c7cf4;
+        border-radius: 2px;
     }
 }
