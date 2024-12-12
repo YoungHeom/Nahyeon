@@ -871,3 +871,14 @@ section .right_con > .txt_box .bold {
         top: 24%;
     }
 }
+@media (max-height: 1366px) and (max-width: 1024px) {
+    section .right_con > .right_con_txt_box {
+        top: 20%;
+    }
+    section .left_con > .txt_box {
+        bottom: 380px;
+    }
+    section .right_con > .txt_box {
+        bottom: 380px;
+    }
+}
