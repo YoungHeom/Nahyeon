@@ -746,25 +746,9 @@ section .right_con > .txt_box .bold {
         background-color: rgb(131, 111, 84, 0.65);
     }
     .section3 .right_con > .txt_box {
-        background-color: rgb(66, 54, 41, 0.65);
+        background-color: rgb(131, 111, 84, 0.65);
         backdrop-filter: blur(10px);
     }
-    /* .section3 .right_con > .txt_box {
-        color: #181817;
-    } */
-    /* .section3 .right_con .pagination_box div {
-        background-color: #4b341b;
-        opacity: .15;
-    } */
-    /* .section3 .right_con .pagination_box div.click {
-        background-color: #4b341b;
-        opacity: 1;
-    }
-    .section3 .right_con .btn_box button {
-        border: 1px solid #4b341b;
-        color: #4b341b;
-    } */
-
     .section5 .right_con > .right_con_txt_box {
         background: rgba(255, 255, 255, 0.1);
     }
@@ -832,12 +816,12 @@ section .right_con > .txt_box .bold {
     .object_box .ring2 {
         width: 700px;
     }
-    .left_con > .title_box > .txt_box {
-        width: 348px;
-    }
     .left_con > .title_box {
         left: 64px;
-        top: 36%;
+        top: 33%;
+    }
+    .left_con > .title_box > .txt_box {
+        width: 348px;
     }
     .object_box .meteor_2 {
         top: initial;
@@ -851,16 +835,46 @@ section .right_con > .txt_box .bold {
         bottom: initial;
     }
     /* section1 끝 */
+    
 
     .left_con > .title_box > .title {
         font-size: 58px;
     }
+
+    section .left_con > .txt_box {
+        left: 36px;
+        bottom: 380px;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+    }
+    
+    .section4 .left_con > .txt_box {
+        background-color: rgb(76, 124, 244, 0.7);
+        border-radius: 2px;
+    }
+    .section3 .left_con .line, .section5 .left_con .line {
+        left: 14%;
+        bottom: 392px;
+    }
+    .section5 .left_con .star {
+        top: 290px;
+        left: -200px
+    }
+
     section .right_con > .right_con_txt_box {
+        top: 20%;
         width: 400px;
+    }
+    section .right_con > .txt_box {
+        bottom: 380px;
     }
     section .right_con .btn_box button a {
         font-size: 15px;
     }
+    .right_con .pagination_box div {
+        background-color: #fdfeff;
+    }
+
     .window {
         min-width: 700px;
         left: 160px;
@@ -878,30 +892,19 @@ section .right_con > .txt_box .bold {
         top: 24%;
     }
 }
+
+/* 아이패드 에어로 볼 때 */
 @media (max-height: 1366px) and (max-width: 1024px) {
     .section3 .left_con .line, .section5 .left_con .line {
         left: 14%;
         bottom: 392px;
     }
 
-    section .left_con > .txt_box {
+    /* section .left_con > .txt_box {
         left: 36px;
         bottom: 380px;
         background: rgba(255, 255, 255, 0.1);
         backdrop-filter: blur(10px);
-    }
-    .section4 .left_con > .txt_box {
-        background-color: rgb(76, 124, 244, 0.7);
-        border-radius: 2px;
-    }
+    } */
 
-    section .right_con > .right_con_txt_box {
-        top: 20%;
-    }
-    section .right_con > .txt_box {
-        bottom: 380px;
-    }
-    .right_con .pagination_box div {
-        background-color: #fdfeff;
-    }
 }
