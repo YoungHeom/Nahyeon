@@ -715,7 +715,7 @@ section .right_con > .txt_box .bold {
 
 
 
-@media (max-width: 1840px) {
+@media (max-width: 1854px) {
     .window {
         width: 52%;
         min-width: 740px;
@@ -733,7 +733,7 @@ section .right_con > .txt_box .bold {
         font-size: 15.8px;
     }
 }
-@media (max-width: 1708px) {
+@media (max-width: 1724px) {
     html {
         overflow-x: hidden;
     }
@@ -745,35 +745,42 @@ section .right_con > .txt_box .bold {
     .section2 .right_con > .right_con_txt_box {
         background: rgba(255, 255, 255, 0.8);
     }
-    .section3 .right_con > .right_con_txt_box {
+    /* .section3 .right_con > .right_con_txt_box {
         color: #181817;
-    }
-    .section5 .right_con > .right_con_txt_box {
-        background: rgba(255, 255, 255, 0.1);
-    }
-
+    } */
     .section .right_con > .txt_box {
         background: rgba(255, 255, 255, 0.3);
+        border-radius: 2px;
+    }
+    .section3 .right_con > .right_con_txt_box {
+        background-color: rgb(131, 111, 84, 0.65);
     }
     .section3 .right_con > .txt_box {
+        background-color: rgb(66, 54, 41, 0.65);
+        backdrop-filter: blur(10px);
+    }
+    /* .section3 .right_con > .txt_box {
         color: #181817;
-    }
-    .section5 .right_con > .txt_box {
-        background: rgba(255, 255, 255, 0.1);
-    }
-
-    .section3 .right_con .pagination_box div {
+    } */
+    /* .section3 .right_con .pagination_box div {
         background-color: #4b341b;
         opacity: .15;
-    }
-    .section3 .right_con .pagination_box div.click {
-        /* background-color: #EEE6DD; */
+    } */
+    /* .section3 .right_con .pagination_box div.click {
         background-color: #4b341b;
         opacity: 1;
     }
     .section3 .right_con .btn_box button {
         border: 1px solid #4b341b;
         color: #4b341b;
+    } */
+
+    .section5 .right_con > .right_con_txt_box {
+        background: rgba(255, 255, 255, 0.1);
+    }
+    .section5 .right_con > .txt_box {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
     }
     
 }
