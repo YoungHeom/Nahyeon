@@ -382,7 +382,7 @@ section .right_con .btn_box button a {
 .window > .img_area {
     height: 894px;
     max-height: 950px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 /* 탭 */
 .window > div > .tap_img.active_1 {
