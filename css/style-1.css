@@ -721,14 +721,6 @@ section .right_con > .txt_box .bold {
         max-height: 940px;
     }
 }
-@media (max-width: 1680px) {
-    .left_con > .title_box > .txt_box {
-        width: 90%;
-        margin-top: 18px;
-        line-height: 27px;
-        font-size: 15.8px;
-    }
-}
 @media (max-width: 1724px) {
     html {
         overflow-x: hidden;
@@ -781,6 +773,14 @@ section .right_con > .txt_box .bold {
         backdrop-filter: blur(10px);
     }
     
+}
+@media (max-width: 1680px) {
+    .left_con > .title_box > .txt_box {
+        width: 90%;
+        margin-top: 18px;
+        line-height: 27px;
+        font-size: 15.8px;
+    }
 }
 @media (max-width: 1500px) {
     .galaxy {
@@ -886,24 +886,22 @@ section .right_con > .txt_box .bold {
 
     section .left_con > .txt_box {
         left: 36px;
+        bottom: 380px;
         background: rgba(255, 255, 255, 0.1);
         backdrop-filter: blur(10px);
     }
-    
-
+    .section4 .left_con > .txt_box {
+        background-color: rgb(76, 124, 244, 0.7);
+        border-radius: 2px;
+    }
 
     section .right_con > .right_con_txt_box {
         top: 20%;
     }
-    section .left_con > .txt_box {
-        bottom: 380px;
-    }
     section .right_con > .txt_box {
         bottom: 380px;
     }
-
-    .section4 .left_con > .txt_box {
-        background-color: rgb(76, 124, 244, 0.7);
-        border-radius: 2px;
+    .right_con .pagination_box div {
+        background-color: #fdfeff;
     }
 }
