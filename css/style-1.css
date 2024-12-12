@@ -273,6 +273,7 @@ section .left_con > .txt_box {
     display: flex;
     gap: 24px;
     color: #fff;
+    z-index: 10;
 }
 section .left_con .txt_box .bold {
     font-weight: 600;
