@@ -893,7 +893,7 @@ section .right_con > .txt_box .bold {
     }
 }
 
-/* 아이패드 에어로 볼 때 */
+/* 12.9인치 */
 @media (max-height: 1366px) and (max-width: 1024px) {
     .section3 .left_con .line, .section5 .left_con .line {
         left: 14%;
@@ -907,4 +907,10 @@ section .right_con > .txt_box .bold {
         backdrop-filter: blur(10px);
     } */
 
+}
+/* 10.9인치 */
+@media (max-width: 1080px) and (max-height: 810px) {
+    .window {
+        max-height: 700px;
+    }
 }
