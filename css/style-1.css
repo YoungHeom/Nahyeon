@@ -714,6 +714,7 @@ section .right_con > .txt_box .bold {
     .window {
         width: 52%;
         min-width: 740px;
+        top: initial;
         left: 334px;
         /* height: 90%; */
         /* min-height: 924px; */
@@ -863,6 +864,7 @@ section .right_con > .txt_box .bold {
     .window {
         min-width: 700px;
         left: 160px;
+        max-height: initial;
     }
 }
 
@@ -901,7 +903,7 @@ section .right_con > .txt_box .bold {
     }
 
     .section4 .left_con > .txt_box {
-        background-color: #4c7cf4;
+        background-color: rgb(76, 124, 244, 0.7);
         border-radius: 2px;
     }
 }
