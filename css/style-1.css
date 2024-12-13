@@ -722,9 +722,6 @@ section .right_con > .txt_box .bold {
     }
 }
 @media (max-width: 1724px) {
-    html {
-        overflow-x: hidden;
-    }
     section .right_con > .right_con_txt_box {
         background: rgba(255, 255, 255, 0.3);
         backdrop-filter: blur(10px);
