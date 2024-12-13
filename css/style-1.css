@@ -171,6 +171,9 @@ section .inner .left_con {
     max-height: 1080px;
     overflow: hidden;
 }
+section img {
+    user-select: none;
+}
 
 
 .galaxy {
@@ -375,6 +378,7 @@ section .right_con .btn_box button a {
     border-radius: 6px;
     overflow: hidden;
     /* display: none; */
+    user-select: none;
 }
 
 .window > div {
@@ -691,33 +695,13 @@ section .right_con > .txt_box .bold {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 1854px) {
     .window {
         width: 52%;
         min-width: 740px;
-        top: initial;
+        /* top: initial; */
         left: 334px;
         /* height: 90%; */
-        /* min-height: 924px; */
         max-height: 940px;
     }
 }
@@ -902,6 +886,9 @@ section .right_con > .txt_box .bold {
     section .left_con > .txt_box {
         bottom: 380px;
     }
+    section .right_con > .right_con_txt_box {
+        width: 414px;
+    }
 }
 @media (max-width: 1366px) and (max-height: 1024px) {
     .window {
@@ -909,8 +896,35 @@ section .right_con > .txt_box .bold {
     }
     .left_con > .title_box {
         left: 64px;
-        top: 36%;
     }   
+    /* section1 시작 */
+    .object_box .planet {
+        width: 228px;
+    }
+    .object_box .ring1 {
+        width: 580px;
+    }
+    .object_box .ring2 {
+        width: 620px;
+    }
+    .left_con > .title_box > .txt_box {
+        width: 348px;
+    }
+    .object_box .meteor_2 {
+        top: initial;
+        bottom: 1%;
+    }
+    .object_box .meteor_3 {
+        top: initial;
+        bottom: 1%;
+    }
+    .object_box .leftdown {
+        bottom: initial;
+    }
+    /* section1 끝 */
+    section .right_con > .right_con_txt_box {
+        width: 414px;
+    }
 }
 /* 10.9인치 */
 @media (max-width: 1080px) and (max-height: 820px) {
