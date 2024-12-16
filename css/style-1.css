@@ -304,7 +304,7 @@ section .right_con > .right_con_txt_box {
     width: 441px;
     position: absolute;
     /* top: 344px; */
-    top: 36%;
+    top: 34%;
     right: 52px;
     padding: 0 12px;
     padding-bottom: 12px;
@@ -332,8 +332,10 @@ section .right_con .txt_title {
     margin-top: 32px;
     font-size: 28px;
 }
+.section2 .right_con > .right_con_txt_box, .section4 .right_con > .right_con_txt_box {
+    backdrop-filter: blur(10px);
+}
 section .right_con .txt_body {
-    /* width: 417px; */
     line-height: 24px;
     margin-top: 18px;
 }
@@ -363,8 +365,8 @@ section .right_con .btn_box button a {
 
 .section2 .right_con .line {
     position: absolute;
-    top: 695px;
     right: 22%;
+    bottom: 28px;
 }
 
 .window {
@@ -508,7 +510,7 @@ section .right_con .btn_box button a {
 .section3 .left_con .line, .section5 .left_con .line {
     position: absolute;
     /* top: 695px; */
-    bottom: 46px;
+    bottom: 28px;
     left: 16%;
     z-index: 10;
 }
@@ -591,7 +593,7 @@ section .right_con .btn_box button a {
 
 .section4 .right_con .line {
     position: absolute;
-    top: 695px;
+    bottom: 28px;
     right: 22%;
 }
 
